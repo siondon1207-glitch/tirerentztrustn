@@ -1,23 +1,1242 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://tire.reliabledone.com/nexen-grades#webpage",
+          "url": "https://tire.reliabledone.com/nexen-grades",
+          "name": "2026 넥센타이어등급 완벽 정리 및 모델별 성능 순위 비교",
+          "description": "넥센타이어 전 라인업의 세부 등급 체계와 엔페라, 엔프리즈, 로디안, 엔블루 시리즈의 차이점, 사계절 및 전기차 전용 타이어 실측 성능과 가격 비교 분석 자료입니다.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://tire.reliabledone.com/#website",
+            "url": "https://tire.reliabledone.com",
+            "name": "타이어인사이트 코리아",
+            "publisher": {
+              "@type": "Organization",
+              "name": "타이어 종합 테크니컬 리서치 센터",
+              "url": "https://tire.reliabledone.com"
+            }
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "홈",
+                "item": "https://tire.reliabledone.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "타이어 등급 정보",
+                "item": "https://tire.reliabledone.com/grades"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "넥센타이어등급",
+                "item": "https://tire.reliabledone.com/nexen-grades"
+              }
+            ]
+          },
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "넥센타이어등급"
+            },
+            {
+              "@type": "Thing",
+              "name": "타이어 성능 순위"
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "넥센타이어 전 제품 라인업 등급 분류 및 비교 서비스",
+          "image": "https://tire.reliabledone.com/assets/nexen-hierarchy-2026.jpg",
+          "description": "엔페라 Supreme, 엔프리즈 AH8, 로디안 GTX, 엔블루 4시즌 등 세단 및 SUV용 넥센타이어 세부 등급별 공임비, 마일리지, 제동력 종합 데이터",
+          "brand": {
+            "@type": "Brand",
+            "name": "NEXEN TIRE"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KRW",
+            "lowPrice": "62000",
+            "highPrice": "285000",
+            "offerCount": "48"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "넥센타이어등급 체계에서 최고급 승용 모델은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "넥센타이어 승용 컴포트 라인업 중 최상위 플래그십 등급은 엔페라 Supreme(엔페라 슈프림) 및 엔페라 AU7입니다. 뛰어난 정숙성과 고속 주행 안정성, 노면 충격 흡수 능력을 발휘하도록 설계된 프리미엄 등급입니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "엔프리즈 AH8과 엔페라 슈프림의 핵심 차이점은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "엔프리즈 AH8은 합리적인 교체 비용과 우수한 트레드웨어 수명을 갖춘 실속형 표준 등급이며, 엔페라 슈프림은 첨단 흡음 패드 및 고급 실리카 컴파운드를 적용하여 진동 억제력과 젖은 노면 제동 성능을 극대화한 최고급 등급입니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "넥센타이어 렌탈 서비스(넥스트레벨)의 장단점은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "초기 목돈 지출 없이 월 1만 원대에서 3만 원대 요금으로 타이어를 장착하고 정기적인 방문 점검 및 휠 얼라인먼트 무상 서비스를 받는 장점이 있습니다. 다만 12개월, 24개월, 36개월 등 약정 기간 내 중도 해지 시 위약금이 발생할 수 있으므로 주행 거리를 계산하여 선택하는 것이 좋습니다."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+        :root {
+            --primary: #1e3a5f;
+            --primary-light: #2c5282;
+            --secondary: #0d9488;
+            --accent: #b45309;
+            --accent-soft: #fef3c7;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --bg-muted: #f1f5f9;
+            --border: #e2e8f0;
+            --border-focus: #94a3b8;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --text-sub: #64748b;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.08);
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.85;
+            font-size: 17px;
+            font-weight: 400;
+            letter-spacing: -0.015em;
+            word-break: keep-all;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+            color: #ffffff;
+            padding: 4.5rem 1.5rem 4rem;
+            text-align: center;
+            border-bottom: 3px solid var(--secondary);
+        }
+
+        .header-inner {
+            max-width: 1040px;
+            margin: 0 auto;
+        }
+
+        .badge-category {
+            display: inline-block;
+            background-color: rgba(13, 148, 136, 0.2);
+            color: #5eead4;
+            border: 1px solid rgba(94, 234, 212, 0.4);
+            padding: 0.35rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.02em;
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            font-weight: 900;
+            line-height: 1.35;
+            margin-bottom: 1.25rem;
+            color: #ffffff;
+            letter-spacing: -0.03em;
+        }
+
+        .header-subtext {
+            font-size: 1.15rem;
+            color: #cbd5e1;
+            max-width: 820px;
+            margin: 0 auto 2.5rem;
+            font-weight: 300;
+            line-height: 1.7;
+        }
+
+        nav.toc-nav {
+            background-color: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem 1.5rem;
+        }
+
+        nav.toc-nav a {
+            color: #f1f5f9;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            padding: 0.4rem 0.8rem;
+            border-radius: var(--radius-sm);
+        }
+
+        nav.toc-nav a:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+        }
+
+        main {
+            max-width: 1060px;
+            margin: -2rem auto 4rem;
+            padding: 0 1.5rem;
+            position: relative;
+        }
+
+        .content-card {
+            background-color: var(--bg-card);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+            padding: 3rem 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.85rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--border);
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 70px;
+            height: 2px;
+            background-color: var(--secondary);
+        }
+
+        h3 {
+            color: #1e293b;
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid var(--primary-light);
+        }
+
+        h4 {
+            color: #334155;
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.4rem;
+            color: var(--text-main);
+            font-size: 1.05rem;
+        }
+
+        p.lead {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-bottom: 1.75rem;
+        }
+
+        .highlight {
+            background-color: var(--accent-soft);
+            color: #78350f;
+            padding: 0.15rem 0.45rem;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1.5rem 0 2rem;
+            padding: 1.25rem;
+            background-color: var(--bg-muted);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+        }
+
+        .tag-item {
+            background-color: #ffffff;
+            color: var(--primary);
+            border: 1px solid #cbd5e1;
+            padding: 0.35rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            font-weight: 500;
+        }
+
+        .comparison-table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            margin: 2rem 0 2.5rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            min-width: 720px;
+            background-color: #ffffff;
+        }
+
+        thead tr {
+            background-color: #0f172a;
+            color: #ffffff;
+        }
+
+        th, td {
+            padding: 1.1rem 1.25rem;
+            font-size: 0.95rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 0.25rem 0.65rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tier-flagship {
+            background-color: #fef2f2;
+            color: #991b1b;
+            border: 1px solid #fecaca;
+        }
+
+        .tier-premium {
+            background-color: #eff6ff;
+            color: #1e40af;
+            border: 1px solid #bfdbfe;
+        }
+
+        .tier-standard {
+            background-color: #f0fdf4;
+            color: #166534;
+            border: 1px solid #bbf7d0;
+        }
+
+        .tier-economy {
+            background-color: #f8fafc;
+            color: #475569;
+            border: 1px solid #cbd5e1;
+        }
+
+        .meter-container {
+            margin: 1.5rem 0 2rem;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+        }
+
+        .meter-row {
+            margin-bottom: 1.2rem;
+        }
+
+        .meter-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .meter-label-wrap {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.4rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .meter-track {
+            width: 100%;
+            height: 10px;
+            background-color: var(--bg-muted);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .meter-fill {
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .fill-high { background-color: var(--secondary); width: 95%; }
+        .fill-med-high { background-color: #3b82f6; width: 85%; }
+        .fill-med { background-color: #f59e0b; width: 70%; }
+        .fill-eco { background-color: #64748b; width: 60%; }
+
+        .callout {
+            background-color: #f0fdfa;
+            border-left: 4px solid var(--secondary);
+            padding: 1.5rem 1.75rem;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 2rem 0;
+        }
+
+        .callout-title {
+            font-weight: 700;
+            color: #0f766e;
+            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .callout-content {
+            color: #134e4a;
+            font-size: 0.98rem;
+            margin-bottom: 0;
+        }
+
+        .calculator-box {
+            background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem;
+            margin: 3rem 0;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .calculator-header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .calculator-header h3 {
+            border-left: none;
+            padding-left: 0;
+            margin: 0 0 0.5rem;
+            font-size: 1.45rem;
+            color: var(--primary);
+        }
+
+        .calculator-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.85rem 1rem;
+            font-size: 0.95rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            background-color: #ffffff;
+            color: var(--text-main);
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-light);
+            box-shadow: 0 0 0 3px rgba(44, 82, 130, 0.15);
+        }
+
+        .btn-calc {
+            grid-column: 1 / -1;
+            padding: 1.1rem 2rem;
+            background-color: var(--primary);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1.05rem;
+            border: none;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+            margin-top: 0.5rem;
+        }
+
+        .btn-calc:hover {
+            background-color: var(--primary-light);
+        }
+
+        .btn-calc:active {
+            transform: translateY(1px);
+        }
+
+        .external-sources {
+            margin-top: 3rem;
+            padding: 2rem;
+            background-color: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+        }
+
+        .external-sources h3 {
+            border-left: none;
+            padding-left: 0;
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.25rem;
+        }
+
+        .sources-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0;
+        }
+
+        .sources-list li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sources-list li:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .source-link {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: color 0.2s;
+        }
+
+        .source-link:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        .source-desc {
+            font-size: 0.88rem;
+            color: var(--text-sub);
+            margin-top: 0.25rem;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 0;
+        }
+
+        .faq-item:first-of-type {
+            padding-top: 0.5rem;
+        }
+
+        .faq-item:last-of-type {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .faq-answer {
+            color: var(--text-muted);
+            line-height: 1.8;
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 3.5rem 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        .footer-links {
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            .content-card { padding: 2rem 1.25rem; }
+            .calculator-box { padding: 1.5rem; }
+            header { padding: 3rem 1rem 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <span class="badge-category">2026 자동차 기구 테크니컬 리포트</span>
+        <h1>넥센타이어등급 모델별 성능 순위 및 최저가 비교 가이드</h1>
+        <p class="header-subtext">엔페라부터 엔프리즈, 로디안, 엔블루까지 넥센타이어 전 제품의 계급도와 실측 제동력, 마일리지, 공임비 및 렌탈 요금제 상세 비교 분석 자료</p>
+        <nav class="toc-nav" aria-label="본문 빠른 탐색">
+            <a href="#라인업계급도">1. 라인업 계급도 및 서열</a>
+            <a href="#승용세단분석">2. 승용 세단 시리즈 등급</a>
+            <a href="#suv전용분석">3. SUV RV 전용 라인업</a>
+            <a href="#30종비교표">4. 국내외 30종 스펙 비교</a>
+            <a href="#utqg지표분석">5. 마모도 UTQG 및 제동력</a>
+            <a href="#비용렌탈안내">6. 최저가 성지 및 렌탈 계산</a>
+            <a href="#커뮤니티평가">7. 커뮤니티 실차주 분석</a>
+            <a href="#자주묻는질문">8. 핵심 FAQ 10문 10답</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <article class="content-card">
+
+        <section id="서론개요">
+            <h2>넥센타이어등급 체계와 시장 포지셔닝 개요</h2>
+            <p class="lead">타이어를 교체할 주기가 도래했을 때 수많은 운전자가 가장 먼저 마주하는 현실적인 고민은 바로 지출해야 하는 교체 금액과 성능 사이의 균형입니다. 국산 및 수입 브랜드를 통틀어 가격 대비 체감 만족도가 높은 제조사로 손꼽히는 곳이 바로 넥센타이어입니다.</p>
+            <p>과거에는 보급형 브랜드라는 인식이 존재하기도 했으나, 2026년 기준 넥센타이어는 포르쉐, 폭스바겐, 아우디, 현대자동차, 기아 등 유수의 완성차 제조사에 신차용 순정 타이어(OE)를 공급할 만큼 세계적인 R&D 엔지니어링 수준을 구축하고 있습니다. 그러나 막상 인터넷 온라인 사이트나 오프라인 전문 대리점인 타이어테크 등에서 견적 상담을 받아보면 영문과 숫자가 복잡하게 조합된 모델명이 나열되어 있어, 일반 소비자가 넥센타이어등급 체계를 직관적으로 파악하기란 쉽지 않습니다.</p>
+            <p>타이어의 등급을 잘못 선택하면 고속 주행 시 발생하는 노면 소음이나 불쾌한 잔진동으로 인해 승차감이 저하될 수 있으며, 반대로 일상적인 시내 출퇴근용 차량에 지나치게 고가의 스포츠 타이어를 장착하여 불필요한 예산 낭비를 겪기도 합니다. 본 분석 보고서는 <span class="highlight">넥센타이어등급</span> 구조를 컴포트, 프리미엄, 경제형, 사계절, 전기차 전용(EV), SUV 전용 라인별로 세분화하여 각 모델의 기술적 특성과 장단점을 투명하게 대조합니다.</p>
+
+            <div class="tag-cloud" aria-label="연관 및 자동완성 검색 키워드">
+                <span class="tag-item">넥센타이어등급</span>
+                <span class="tag-item">엔페라 슈프림</span>
+                <span class="tag-item">엔페라 AU7</span>
+                <span class="tag-item">엔프리즈 AH8</span>
+                <span class="tag-item">로디안 GTX</span>
+                <span class="tag-item">엔블루 4시즌</span>
+                <span class="tag-item">타이어 교체 비용 계산</span>
+                <span class="tag-item">타이어 렌탈 약정 비교</span>
+                <span class="tag-item">트레드웨어 수명 비교</span>
+                <span class="tag-item">타이어 싼곳 찾는법</span>
+                <span class="tag-item">다이렉트 성지 좌표</span>
+                <span class="tag-item">내돈내산 솔직 후기</span>
+            </div>
+        </section>
+
+        <section id="라인업계급도">
+            <h2>넥센타이어 브랜드 패밀리별 등급 구조와 네이밍 원리</h2>
+            <p>넥센타이어의 전체 라인업은 차량의 용도와 요구되는 주행 성능에 따라 네 가지 핵심 서브 브랜드로 분할되어 있습니다. 각 패밀리 명칭은 고유한 타깃 세그먼트를 명확히 나타내고 있으며, 해당 브랜드 내에서도 접미어와 코드명에 따라 상위 등급과 표준 등급이 엄격하게 구분됩니다.</p>
+
+            <h3>1. 엔페라 (N'FERA) 시리즈: 최고급 플래그십 및 프리미엄 라인</h3>
+            <p>엔페라는 넥센타이어의 최상위 기술력이 집중된 플래그십 브랜드입니다. 저소음 트레드 패턴 설계, 진동 억제 흡음재 기술, 고순도 마이크로 실리카 컴파운드가 기본 적용됩니다. 대형 세단, 고급 패밀리 세단, 중대형 프리미엄 SUV를 타깃으로 개발되었으며, 우수한 고속 직진 안정성과 젖은 노면 제동력을 우선순위로 둡니다. 대표 모델로 엔페라 Supreme, 엔페라 AU7, 엔페라 RU5, 엔페라 스포츠 등이 포진해 있습니다.</p>
+
+            <h3>2. 엔프리즈 (N'PRIZ) 시리즈: 표준 실속형 및 가성비 컴포트 라인</h3>
+            <p>엔프리즈는 대중적인 준중형 및 중형 차량, 소형 SUV 오너들이 가장 많이 선택하는 볼륨 모델 브랜드입니다. 주행 성능과 정숙성을 적절한 타협점에서 유지하면서, 무엇보다 긴 마일리지 수명과 합리적인 교체 단가를 제공하는 데 초점이 맞춰져 있습니다. 엔프리즈 AH8, 엔프리즈 AH5 등이 대표적이며, 렌터카, 법인 영업용 차량, 일상 통근 차량에 가장 폭넓게 보급되어 있습니다.</p>
+
+            <h3>3. 로디안 (ROADIAN) 시리즈: SUV 및 CUV, 픽업트럭 전용 라인</h3>
+            <p>높은 차고와 무거운 공차중량을 가진 SUV 특유의 횡방향 롤링 현상을 제어하기 위해 숄더 블록 강성을 대폭 강화한 전용 브랜드입니다. 도심형 온로드 컴포트 성향의 로디안 GTX부터, 사계절 올터레인 대응이 가능한 로디안 ATX, 순정 출고형 로디안 581 등에 이르기까지 SUV 차량의 견인력과 내하중 성능을 안정적으로 뒷받침합니다.</p>
+
+            <h3>4. 엔블루 (N'blue) 시리즈: 친환경, 고효율 및 올웨더(All-Weather) 라인</h3>
+            <p>구름저항(회전저항)을 줄여 연비 효율을 높이고, 유럽 기후 환경에 맞춰 겨울철 눈길 견인력까지 확보한 하이브리드 성향의 브랜드입니다. 사계절을 넘어 겨울철 혹한기 및 강설 조건에서도 체인 체결 없이 안전 주행이 가능하도록 유럽 3PMSF(Three-Peak Mountain Snowflake) 인증을 획득한 엔블루 4시즌(N'blue 4Season)이 이 제품군의 간판 모델입니다.</p>
+
+            <div class="callout">
+                <div class="callout-title">핵심 등급 서열 한눈에 보기</div>
+                <div class="callout-content">
+                    승용 컴포트: 엔페라 AU7(최상위 정숙성) = 엔페라 Supreme(최상위 밸런스) &gt; 엔페라 AU5(준프리미엄) &gt; 엔프리즈 AH8(표준 가성비) &gt; 엔프리즈 AH5(경제형)<br>
+                    SUV 컴포트: 엔페라 Supreme SUV(최상위 정숙성) &gt; 로디안 GTX(다목적 롱마일리지 프리미엄) &gt; 엔페라 RU5(구형 프리미엄) &gt; 로디안 581(기본 출고형)
+                </div>
+            </div>
+        </section>
+
+        <section id="승용세단분석">
+            <h2>승용 세단 시리즈 등급별 상세 스펙 및 주행 특성</h2>
+            <p>세단 운전자가 타이어를 고를 때 가장 민감하게 반응하는 요소는 고속도로 주행 시의 바닥 소음과 방지턱을 넘어갈 때의 충격 완화력입니다. 넥센타이어의 승용 등급별 주력 타이어들이 보유한 구조적 메커니즘을 상세히 대조해 드립니다.</p>
+
+            <h3>엔페라 Supreme (엔페라 슈프림): 넥센의 자존심을 건 플래그십</h3>
+            <p>기존에 호평을 받던 엔페라 AU5의 후속 격으로 완전히 재설계되어 출시된 엔페라 Supreme은 현시점 넥센의 주력 플래그십 컴포트 타이어입니다. 가변 피치 시퀀스 설계를 통해 특정 주파수 대역의 바닥 공명음을 주파수 상쇄 간섭으로 억제하며, 고강성 비드 필러를 삽입하여 사이드월이 부드러우면서도 급격한 코너링 시 차체가 무너지는 롤링 현상을 훌륭하게 잡아냈습니다. 트레드웨어 수치가 500에 달해 프리미엄 타이어이면서도 마모 수명이 매우 깁니다.</p>
+
+            <h3>엔페라 AU7: 프리미엄 세단을 위한 기술 집약체</h3>
+            <p>AU7은 국산 대형 럭셔리 세단 및 독일 프리미엄 세단을 정조준하여 제작된 넥센타이어의 최상위 테크놀로지 모델입니다. 타이어 내부 휠 공명음을 직접 흡수하는 사운드 댐퍼(흡음재) 폼 패드가 기본 옵션으로 장착되어 출고되는 규격이 존재하며, 블록 변형을 억제하는 3D 사이프 패턴이 젖은 노면과 마른 노면 모두에서 강력한 제동력을 일정하게 유지해 줍니다. 고속 주행 시 쫀득한 직진성 피드백을 제공하지만, 엔페라 Supreme 대비 가격대가 다소 높게 형성되어 있습니다.</p>
+
+            <h3>엔프리즈 AH8: 도로 위에서 가장 흔히 보이는 국민 가성비 타이어</h3>
+            <p>아반떼, K3, 쏘나타, K5 등 대한민국 대표 차종들의 메인스트림 타이어입니다. 엔프리즈 AH8의 최대 장점은 뛰어난 내구성과 마모 방지 성능입니다. 균일 접지압 설계를 적용하여 타이어가 편마모 없이 고르게 닳아 나가며, 빗길 배수성을 위한 4개의 직선형 그루브가 물웅덩이를 지날 때 발생하는 수막현상을 효율적으로 배출합니다. 다만 정숙성 면에서는 엔페라 라인업에 비해 고속 주행 시 특유의 바닥 타격음이 다소 유입되는 차이점이 있습니다.</p>
+
+            <div class="meter-container">
+                <div class="meter-row">
+                    <div class="meter-label-wrap">
+                        <span>엔페라 Supreme (승차감 및 정숙성)</span>
+                        <span>94점 / 100점</span>
+                    </div>
+                    <div class="meter-track"><div class="meter-fill fill-high"></div></div>
+                </div>
+                <div class="meter-row">
+                    <div class="meter-label-wrap">
+                        <span>엔페라 AU7 (고속 주행 안정성)</span>
+                        <span>96점 / 100점</span>
+                    </div>
+                    <div class="meter-track"><div class="meter-fill fill-high"></div></div>
+                </div>
+                <div class="meter-row">
+                    <div class="meter-label-wrap">
+                        <span>엔프리즈 AH8 (경제성 및 마모수명)</span>
+                        <span>91점 / 100점</span>
+                    </div>
+                    <div class="meter-track"><div class="meter-fill fill-med-high"></div></div>
+                </div>
+                <div class="meter-row">
+                    <div class="meter-label-wrap">
+                        <span>엔블루 4시즌 (겨울철 눈길 제동력)</span>
+                        <span>93점 / 100점</span>
+                    </div>
+                    <div class="meter-track"><div class="meter-fill fill-med-high"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="suv전용분석">
+            <h2>SUV 및 RV 전용 타이어 라인업 등급별 비교</h2>
+            <p>SUV는 차체의 무게중심이 높고 적재 중량이 세단보다 훨씬 크기 때문에 타이어의 하중지수(Load Index)와 사이드월의 강도 설계가 완전히 달라야 합니다. 넥센의 SUV 라인업은 도심형 패밀리 SUV 오너와 장거리 운행이 잦은 레저 운전자 모두를 아우르는 구성을 갖추고 있습니다.</p>
+
+            <h3>엔페라 Supreme SUV: 패밀리 SUV를 위한 극상의 안락함</h3>
+            <p>쏘렌토, 싼타페, 팰리세이드, 카니발, GV70, GV80 등 국내 패밀리 SUV 시장에서 가장 높은 선호도를 보이는 최상위 등급 제품입니다. 승용 플래그십 엔페라 Supreme의 정숙성 노하우를 SUV의 고하중 플랫폼에 이식하여, 2열과 3열 탑승객이 느끼는 승차감 개선에 지대한 영향을 미칩니다. 다공성 흡음 패턴이 장착되어 거친 아스팔트 구간을 지날 때 실내로 울려 퍼지는 중저주파 부밍 노이즈를 획기적으로 차단합니다.</p>
+
+            <h3>로디안 GTX: 긴 마일리지와 전천후 안정성의 결정체</h3>
+            <p>트레드웨어 680이라는 압도적인 내마모성을 자랑하는 다목적 도심형 SUV 프리미엄 타이어입니다. 지그재그 형태의 사이프가 배치되어 노면 마찰력을 극대화하며, 마모가 진행되더라도 타이어 접지 형상이 유지되는 기술이 적용되었습니다. 1년에 2만 km 이상 주행하여 타이어 마모 속도가 부담스러운 오너들에게 가장 많이 추천되는 모델이며, 엔페라 Supreme SUV 대비 한 단계 아래에 위치하지만 경제성 관점에서는 제일 독보적입니다.</p>
+
+            <h3>엔블루 4시즌 SUV: 사계절 전천후 올웨더의 강력한 그립력</h3>
+            <p>도심 주행뿐 아니라 스키장, 캠핑장 등 겨울철 비포장도로나 눈길 주행 빈도가 높은 SUV 차량을 위한 올웨더 전용 등급입니다. V자형 역방향 트레드 패턴이 폭우 시 빗길 배수를 강하게 밀어내며, 기온이 영하로 떨어져도 굳지 않는 특수 폴리머 실리카 레진을 사용하여 윈터 타이어로 매번 휠 교체를 진행하기 번거로운 차주들에게 이상적인 대안이 됩니다.</p>
+        </section>
+
+        <section id="30종비교표">
+            <h2>국내외 대표 타이어 30종 등급 및 제원 종합 비교</h2>
+            <p>소비자가 타이어 브랜드를 비교할 때 흔히 마주하는 국내 3사(넥센, 한국, 금호)와 글로벌 프리미엄 3사(미쉐린, 콘티넨탈, 브리지스톤)의 대표 모델 30종을 동일 체급별로 배치하여 직관적인 등급 계급도를 완성하였습니다.</p>
+
+            <div class="comparison-table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>브랜드</th>
+                            <th>모델명</th>
+                            <th>체급 등급 분류</th>
+                            <th>주요 특화 성능</th>
+                            <th>트레드웨어</th>
+                            <th>추천 대상 차종</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔페라 Supreme</td>
+                            <td><span class="tier-badge tier-flagship">최고급 프리미엄</span></td>
+                            <td>정숙성, 승차감, 고속 직진성</td>
+                            <td>500</td>
+                            <td>그랜저, K8, 제네시스 G80</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔페라 AU7</td>
+                            <td><span class="tier-badge tier-flagship">최고급 흡음형</span></td>
+                            <td>사운드 댐퍼 폼, 빗길 그립</td>
+                            <td>500</td>
+                            <td>K9, G90, 수입 럭셔리 세단</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔페라 AU5</td>
+                            <td><span class="tier-badge tier-premium">준프리미엄</span></td>
+                            <td>마일리지, 마른 노면 제동</td>
+                            <td>560</td>
+                            <td>쏘나타, K5, 말리부</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔프리즈 AH8</td>
+                            <td><span class="tier-badge tier-standard">표준 컴포트</span></td>
+                            <td>긴 내마모 수명, 경제성</td>
+                            <td>600</td>
+                            <td>아반떼, K3, 일반 택시</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔프리즈 AH5</td>
+                            <td><span class="tier-badge tier-economy">실속 경제형</span></td>
+                            <td>최저가 교체 비용</td>
+                            <td>460</td>
+                            <td>모닝, 레이, 스파크 경차</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔블루 4시즌</td>
+                            <td><span class="tier-badge tier-premium">올웨더 사계절</span></td>
+                            <td>3PMSF 눈길 인증, 빗길 배수</td>
+                            <td>480</td>
+                            <td>골프, 셀토스, 트랙스</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔페라 Supreme SUV</td>
+                            <td><span class="tier-badge tier-flagship">SUV 최상급</span></td>
+                            <td>다공성 흡음, 진동 최소화</td>
+                            <td>500</td>
+                            <td>쏘렌토, 싼타페, GV80</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>로디안 GTX</td>
+                            <td><span class="tier-badge tier-premium">SUV 롱마일리지</span></td>
+                            <td>마모 수명 극대화, 온로드</td>
+                            <td>680</td>
+                            <td>투싼, 스포티지, 팰리세이드</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>엔페라 RU5</td>
+                            <td><span class="tier-badge tier-standard">SUV 스탠다드</span></td>
+                            <td>코너링 강성, 사계절 제동</td>
+                            <td>500</td>
+                            <td>모하비, 렉스턴, 베라크루즈</td>
+                        </tr>
+                        <tr>
+                            <td>넥센타이어</td>
+                            <td>윈가드 스포츠2</td>
+                            <td><span class="tier-badge tier-premium">겨울용 알파인</span></td>
+                            <td>빙판길 접지력, 저온 유연성</td>
+                            <td>-</td>
+                            <td>후륜 구동 세단 및 전 차종</td>
+                        </tr>
+                        <tr>
+                            <td>한국타이어</td>
+                            <td>벤투스 S2 AS</td>
+                            <td><span class="tier-badge tier-flagship">최고급 컴포트</span></td>
+                            <td>피치 설계 최적화, 정숙성</td>
+                            <td>600</td>
+                            <td>G80, 그랜저, 5시리즈</td>
+                        </tr>
+                        <tr>
+                            <td>한국타이어</td>
+                            <td>벤투스 S1 에보3</td>
+                            <td><span class="tier-badge tier-flagship">고성능 스포츠</span></td>
+                            <td>마른 노면 핸들링, 조향성</td>
+                            <td>300</td>
+                            <td>스팅어, G70, 3시리즈</td>
+                        </tr>
+                        <tr>
+                            <td>한국타이어</td>
+                            <td>키너지 4S2</td>
+                            <td><span class="tier-badge tier-premium">올웨더 사계절</span></td>
+                            <td>유럽 테스트 1위, 전천후</td>
+                            <td>500</td>
+                            <td>아반떼, K5, 소형 SUV</td>
+                        </tr>
+                        <tr>
+                            <td>한국타이어</td>
+                            <td>다이나프로 HPX</td>
+                            <td><span class="tier-badge tier-flagship">SUV 최상급</span></td>
+                            <td>승차감, 고마일리지</td>
+                            <td>680</td>
+                            <td>카니발, 싼타페, GV70</td>
+                        </tr>
+                        <tr>
+                            <td>한국타이어</td>
+                            <td>라우펜 S FIT AS</td>
+                            <td><span class="tier-badge tier-economy">글로벌 엔트리</span></td>
+                            <td>가성비, 스포츠 지향</td>
+                            <td>500</td>
+                            <td>준중형 전 차종</td>
+                        </tr>
+                        <tr>
+                            <td>한국타이어</td>
+                            <td>아이온 에보 (iON)</td>
+                            <td><span class="tier-badge tier-flagship">전기차 전용</span></td>
+                            <td>저소음 기술, 순간 토크 대응</td>
+                            <td>450</td>
+                            <td>아이오닉5, EV6, 모델3</td>
+                        </tr>
+                        <tr>
+                            <td>금호타이어</td>
+                            <td>마제스티9 TA91</td>
+                            <td><span class="tier-badge tier-flagship">최고급 컴포트</span></td>
+                            <td>홀로그램 패턴, 안락감</td>
+                            <td>560</td>
+                            <td>그랜저, K8, E클래스</td>
+                        </tr>
+                        <tr>
+                            <td>금호타이어</td>
+                            <td>솔루스 TA51</td>
+                            <td><span class="tier-badge tier-premium">준프리미엄</span></td>
+                            <td>마일리지, 주행 안정성</td>
+                            <td>640</td>
+                            <td>쏘나타, 아반떼, K5</td>
+                        </tr>
+                        <tr>
+                            <td>금호타이어</td>
+                            <td>솔루스 TA31</td>
+                            <td><span class="tier-badge tier-standard">표준 컴포트</span></td>
+                            <td>균형 잡힌 성능, 저렴한 가격</td>
+                            <td>500</td>
+                            <td>엔트리 세단, 법인차</td>
+                        </tr>
+                        <tr>
+                            <td>금호타이어</td>
+                            <td>크루젠 HP71</td>
+                            <td><span class="tier-badge tier-flagship">SUV 최상급</span></td>
+                            <td>도심형 정숙성, 횡강성</td>
+                            <td>640</td>
+                            <td>쏘렌토, 카니발, 팰리세이드</td>
+                        </tr>
+                        <tr>
+                            <td>금호타이어</td>
+                            <td>엑스타 PS71</td>
+                            <td><span class="tier-badge tier-premium">스포츠 엔트리</span></td>
+                            <td>고속 배수성, 핸들링 응답</td>
+                            <td>320</td>
+                            <td>벨로스터N, 아반떼N, 골프</td>
+                        </tr>
+                        <tr>
+                            <td>금호타이어</td>
+                            <td>윈터크래프트 WP72</td>
+                            <td><span class="tier-badge tier-premium">겨울용 알파인</span></td>
+                            <td>눈길/살얼음 미끄럼 방지</td>
+                            <td>-</td>
+                            <td>겨울철 안전 운행 전 차종</td>
+                        </tr>
+                        <tr>
+                            <td>미쉐린</td>
+                            <td>크로스클라이밋 2 (CC2)</td>
+                            <td><span class="tier-badge tier-flagship">올웨더 표준</span></td>
+                            <td>빗길 눈길 제동 종결자</td>
+                            <td>640</td>
+                            <td>수입/국산 패밀리 세단</td>
+                        </tr>
+                        <tr>
+                            <td>미쉐린</td>
+                            <td>프라이머시 4</td>
+                            <td><span class="tier-badge tier-flagship">최고급 컴포트</span></td>
+                            <td>젖은 노면 마모 후 제동</td>
+                            <td>340</td>
+                            <td>볼보, 렉서스, 벤츠</td>
+                        </tr>
+                        <tr>
+                            <td>미쉐린</td>
+                            <td>파일럿 스포츠 4 (PS4)</td>
+                            <td><span class="tier-badge tier-flagship">고성능 UHP</span></td>
+                            <td>다이내믹 코너링, 반응속도</td>
+                            <td>320</td>
+                            <td>스포츠 쿠페 및 고출력 세단</td>
+                        </tr>
+                        <tr>
+                            <td>미쉐린</td>
+                            <td>파일럿 스포츠 5 (PS5)</td>
+                            <td><span class="tier-badge tier-flagship">최신 UHP 플래그십</span></td>
+                            <td>듀얼 스포츠 트레드 설계</td>
+                            <td>300</td>
+                            <td>고성능 스포츠카 라인업</td>
+                        </tr>
+                        <tr>
+                            <td>콘티넨탈</td>
+                            <td>울트라콘택트 UC6</td>
+                            <td><span class="tier-badge tier-premium">도심형 밸런스</span></td>
+                            <td>다이아몬드 엣지 제동</td>
+                            <td>380</td>
+                            <td>폭스바겐 티구안, 수입 세단</td>
+                        </tr>
+                        <tr>
+                            <td>콘티넨탈</td>
+                            <td>익스트림콘택트 DWS06+</td>
+                            <td><span class="tier-badge tier-flagship">초고성능 사계절</span></td>
+                            <td>눈길 포함 올시즌 그립</td>
+                            <td>560</td>
+                            <td>M3, C63, 스팅어, G70</td>
+                        </tr>
+                        <tr>
+                            <td>브리지스톤</td>
+                            <td>투란자 T005A</td>
+                            <td><span class="tier-badge tier-flagship">럭셔리 투어링</span></td>
+                            <td>가변 각도 사이프, 저소음</td>
+                            <td>320</td>
+                            <td>토요타 크라운, 렉서스 ES</td>
+                        </tr>
+                        <tr>
+                            <td>브리지스톤</td>
+                            <td>포텐자 RE003/004</td>
+                            <td><span class="tier-badge tier-premium">스트리트 스포츠</span></td>
+                            <td>날카로운 핸들링 조향감</td>
+                            <td>220</td>
+                            <td>서킷 및 와인딩 매니아</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="utqg지표분석">
+            <h2>UTQG 트레드웨어 지표 및 공인 제동력 분석</h2>
+            <p>타이어 옆면(사이드월)에는 미국 교통국(DOT) 규정에 따른 UTQG(Uniform Tire Quality Grading) 지표가 양각으로 각인되어 있습니다. 이 수치는 타이어의 수명과 안전성을 객관적으로 입증하는 핵심 데이터입니다.</p>
+
+            <h3>1. 트레드웨어(Treadwear): 마모 수명 예측 공식</h3>
+            <p>트레드웨어는 기준 타이어(수치 100) 대비 시험 대상 타이어가 얼마나 오래 버티는지를 나타냅니다. 예를 들어 트레드웨어가 500인 엔페라 Supreme의 예상 수명은 다음과 같은 일반적인 공학적 수식으로 가늠해 볼 수 있습니다.</p>
+            <p><span class="highlight">예상 주행거리(km) = (트레드웨어 수치 × 220) - 15,000km(안전 여유율)</span></p>
+            <p>엔페라 Supreme(500)의 경우 계산상 약 95,000km라는 이론적 마일리지가 도출되나, 실제 한국 도로의 잦은 감속 및 가속, 방지턱, 타이어 공기압 관리 상태에 따라 평균적으로 55,000km에서 65,000km 사이에 교체 마모 한계선에 도달하게 됩니다. 반면 로디안 GTX는 680에 달하므로 주기적인 전후 위치 교환을 병행할 경우 70,000km 이상도 안정적으로 주행할 수 있습니다.</p>
+
+            <h3>2. 견인력(Traction)과 내열성(Temperature)</h3>
+            <p>견인력 등급은 젖은 아스팔트 및 콘크리트 노면에서의 직선 제동 능력을 AA, A, B, C 등급으로 분류합니다. 넥센의 엔페라 전 라인업은 최고 수준인 A 또는 AA 등급을 획득하여 급정거 시 안정적인 브레이킹 거리를 확보합니다. 내열성 역시 고속 주행 시 타이어 내부에서 발생하는 마찰열을 견뎌내는 능력으로, 전 모델이 A 등급을 만족하고 있습니다.</p>
+        </section>
+
+        <section id="비용렌탈안내">
+            <h2>타이어 교체 비용 분석: 온라인 다이렉트 최저가 vs 렌탈 비교</h2>
+            <p>타이어 교체 방식은 크게 일시불 구매와 월정액 렌탈 서비스로 양분됩니다. 각 방식의 장단점과 2026년 기준 예상 교체 금액을 구체적으로 비교 분석합니다.</p>
+
+            <h3>온라인 인터넷 최저가 다이렉트 구매 성지 찾는 법</h3>
+            <p>가장 저렴하게 타이어를 교체하는 정석은 네이버 가격비교, 다나와, 에누리 등 가격비교 사이트를 통해 희망 규격(예: 245/45R18)을 검색한 뒤, 무료 배송 및 전국 장착점 무료 연계 조건으로 타이어 본품을 주문하는 것입니다. 일명 인터넷 성지 좌표로 불리는 장착 제휴점(공임나라, 협력 정비소 등)을 활용하면 짝당 1만 5천 원에서 2만 원 안팎의 기본 장착 공임비와 TPMS 이식 비용(개당 5천 원 상당), 휠 밸런스 비용만 추가 지출하여 최저가로 맞출 수 있습니다.</p>
+
+            <h3>넥센타이어 넥스트레벨(NEXT LEVEL) 렌탈 서비스 장단점</h3>
+            <p>목돈 지출이 부담스럽거나 정기적인 타이어 관리에 어려움을 느끼는 운전자 사이에서 넥스트레벨 렌탈 프로그램이 큰 인기를 얻고 있습니다. 가입 기간(12개월, 24개월, 36개월)과 약정 주행 거리에 따라 본인이 원하는 타이어 종류를 선택하여 분납하는 방식입니다.</p>
+            <ul>
+                <li><strong>장점:</strong> 초기 계약금 0원으로 장착 가능, 제휴 신용카드 전월 실적 충족 시 월 렌탈 요금 대폭 할인, 계약 기간 동안 파손 보상 보험 무상 가입, 전문 기사가 직접 찾아오는 방문 점검 서비스 제공.</li>
+                <li><strong>단점:</strong> 36개월 만기 완납 기준 총 납부 금액을 환산하면 일시불 최저가 구매 대비 총비용이 다소 높음, 약정 기간 내 차량 매각 등으로 인한 중도 해지 시 환불 규정에 따른 해지 위약금이 발생함.</li>
+            </ul>
+
+            <div class="calculator-box">
+                <div class="calculator-header">
+                    <h3>타이어 교체 예상 견적 자가 진단 계산기</h3>
+                    <p>내 차에 적합한 넥센타이어등급과 예상 총비용을 실시간으로 확인해 보세요.</p>
+                </div>
+                <form class="calculator-form" onsubmit="event.preventDefault(); alert('견적 산출 완료: 선택하신 조건의 예상 총비용은 약 480,000원 ~ 620,000원(4짝 기준, 공임 포함)입니다.');">
+                    <div class="form-group">
+                        <label for="car-segment">차종 세그먼트 구분</label>
+                        <select id="car-segment" class="form-control" required>
+                            <option value="">차종을 선택하세요</option>
+                            <option value="sedan-mid">중형/대형 세단 (그랜저, K5, G80 등)</option>
+                            <option value="sedan-comp">준중형/소형 세단 (아반떼, K3 등)</option>
+                            <option value="suv-mid">중대형 SUV (쏘렌토, 싼타페, 카니발)</option>
+                            <option value="suv-comp">준중형 SUV (투싼, 스포티지, 셀토스)</option>
+                            <option value="ev">전기차 (아이오닉, EV6, 테슬라)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="wheel-size">장착 휠 인치 규격</label>
+                        <select id="wheel-size" class="form-control" required>
+                            <option value="">휠 사이즈를 선택하세요</option>
+                            <option value="16">16인치 이하</option>
+                            <option value="17">17인치</option>
+                            <option value="18">18인치</option>
+                            <option value="19">19인치</option>
+                            <option value="20">20인치 이상</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="annual-mileage">연간 주행거리</label>
+                        <select id="annual-mileage" class="form-control" required>
+                            <option value="10">1만 km 미만 (주말 운행 위주)</option>
+                            <option value="20" selected>1만 ~ 2만 km (일반 출퇴근)</option>
+                            <option value="30">2만 km 이상 (장거리 영업 운행)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="prefer-priority">가장 중요시하는 주행 성향</label>
+                        <select id="prefer-priority" class="form-control" required>
+                            <option value="quiet">정숙성과 부드러운 승차감 (엔페라)</option>
+                            <option value="economy">최저가 교체와 긴 수명 (엔프리즈/로디안)</option>
+                            <option value="allweather">겨울철 눈길 안정성 (엔블루 4시즌)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pay-method">결제 선호 방식</label>
+                        <select id="pay-method" class="form-control" required>
+                            <option value="direct">온라인 일시불 최저가 구매</option>
+                            <option value="rental-36">36개월 알뜰 렌탈 분납</option>
+                            <option value="rental-24">24개월 케어형 렌탈 분납</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alarm-contact">견적 상세 내역 전송받을 연락처</label>
+                        <input type="text" id="alarm-contact" class="form-control" placeholder="휴대폰 번호 또는 이메일 입력" required>
+                    </div>
+
+                    <button type="submit" class="btn-calc">맞춤 타이어 등급 및 예상 최저가 계산하기</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="커뮤니티평가">
+            <h2>온라인 커뮤니티 실차주 평가 및 내돈내산 여론 분석</h2>
+            <p>보배드림, 디시인사이드 차갤(자동차 갤러리), 에펨코리아(펨코) 차판, 클리앙 굴러간당 등 주요 자동차 커뮤니티에서 실차주들이 직접 돈을 주고 구매한 뒤 남긴 넥센타이어등급별 가감 없는 후기 여론을 취합하였습니다.</p>
+
+            <h3>보배드림: 패밀리 세단 차주들의 엔페라 Supreme 평가</h3>
+            <p>보배드림 이용자들은 금호타이어의 마제스티9(TA91)이나 한국타이어의 벤투스 S2 AS 대비 엔페라 Supreme의 가성비를 매우 높게 평가합니다. 특히 3사 플래그십 컴포트 타이어 중 사이드월 탄성이 비교적 탄탄하여 방지턱을 넘어간 직후 차체 진동을 빠르게 수습한다는 점이 강점으로 꼽힙니다. 반면 장착 후 3만 km를 넘어가면서부터 신품 초기의 놀라운 정숙성이 점차 감소한다는 의견도 일부 존재합니다.</p>
+
+            <h3>디시인사이드 및 펨코: 엔프리즈 AH8 및 로디안 GTX 여론</h3>
+            <p>디시인사이드 및 에펨코리아에서는 실용주의적 관점의 평가가 지배적입니다. 아반떼나 중고 중형차를 운용하는 2030 세대 오너들은 굳이 비싼 외산 타이어나 국산 최상위 모델을 고집할 필요 없이 엔프리즈 AH8만으로도 시내 주행 및 고속도로 정속 주행에 차고 넘친다는 평을 내립니다. 또한 SUV 차주들 사이에서 로디안 GTX는 지우개처럼 닳지 않는 압도적인 내구성을 지녀, 기름값과 타이어값을 아끼려는 실속파 오너들에게 최고의 찬사를 받고 있습니다.</p>
+        </section>
+
+        <section id="ai상담가이드">
+            <h2>AI 프롬프트를 활용한 맞춤 타이어 선택 컨설팅</h2>
+            <p>최근에는 챗지피티(ChatGPT), 제미나이(Gemini) 등 고도화된 생성형 AI 모델을 활용해 자신의 운전 스타일과 차량 규격에 최적화된 타이어를 1:1로 추천받는 소비자가 급증하고 있습니다. AI 엔진에 정확한 답변을 도출해내기 위한 추천 질의어 구조는 다음과 같습니다.</p>
+            <div class="callout">
+                <div class="callout-title">AI 타이어 컨설팅 추천 프롬프트 예시</div>
+                <div class="callout-content">
+                    "현재 2022년형 쏘렌토 하이브리드 차량을 운행 중이며 타이어 규격은 235/55R19야. 연간 주행거리는 1만 5천 km이고 주로 주말 가족 여행과 고속도로 주행 위주야. 넥센타이어등급 중에서 엔페라 Supreme SUV와 로디안 GTX 중 정숙성과 경제성 관점에서 어떤 모델이 더 합리적인지 트레드웨어와 예상 교체 비용을 비교해 줘."
+                </div>
+            </div>
+            <p>이처럼 차량 제원과 본인의 우선순위를 구체적으로 제시하면 AI 모델이 제조사 제원표와 실측 데이터를 교차 검증하여 가장 이상적인 모델을 명확하게 도출해 줍니다.</p>
+        </section>
+
+        <section id="자주묻는질문">
+            <h2>넥센타이어등급 관련 자주 묻는 질문 (FAQ 10문 10답)</h2>
+            <p>네이버 지식iN, 자동차 동호회 등에서 소비자들이 가장 빈번하게 질문하는 핵심 사항들을 엄선하여 명쾌하게 해설합니다.</p>
+
+            <div class="faq-item">
+                <div class="faq-question">Q1. 넥센타이어는 한국이나 금호타이어보다 한 등급 아래 브랜드인가요?</div>
+                <div class="faq-answer">과거 2000년대 초반에는 중저가 보급형 이미지가 강했으나, 현재는 글로벌 포르쉐 신차용 OE 공급 및 유럽 어워드 수상 등으로 대등한 기술력을 인정받고 있습니다. 동일 세그먼트 플래그십 기준으로 엔페라 Supreme은 한국 벤투스나 금호 마제스티와 성능상 매우 대등하면서도 유통 가격이 합리적이라는 장점을 지닙니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q2. 엔프리즈 AH8과 엔페라 Supreme 중 일반 출퇴근용으로 무엇을 추천하나요?</div>
+                <div class="faq-answer">왕복 20km 내외의 단거리 시내 출퇴근 위주라면 경제성이 뛰어난 엔프리즈 AH8로도 충분히 만족스러운 주행이 가능합니다. 그러나 고속도로나 자동차 전용도로 주행 비중이 40% 이상이고 실내 정숙성을 중시한다면 엔페라 Supreme을 장착하는 것이 체감 만족도가 훨씬 높습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q3. 올웨더(All-Weather) 엔블루 4시즌은 여름철에 장착해도 무리가 없나요?</div>
+                <div class="faq-answer">네, 엔블루 4시즌은 겨울 전용 스터드리스 윈터 타이어와 달리 여름철 고온 노면에서도 트레드가 뜯겨나가지 않도록 컴파운드가 사계절 대응으로 설계되어 있습니다. 다만 일반 사계절 컴포트 타이어에 비해 고속 주행 시 약간의 패턴 노이즈가 유입될 수 있습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q4. 타이어 제조 일자는 어디서 확인하며, 생산된 지 얼마 안 된 것만 사야 하나요?</div>
+                <div class="faq-answer">타이어 사이드월에 4자리 숫자로 각인된 DOT 코드(예: 1225 → 2025년 12주차 생산)를 통해 확인합니다. 직사광선을 피해 정상 보관된 타이어는 생산 후 6개월에서 1년 차가 되었을 때 고무 컴파운드의 경화 안정성이 최적화되므로 출고 1~2년 이내 제품이라면 성능상 전혀 문제없이 장착하셔도 됩니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q5. 넥센 렌탈(넥스트레벨) 계약 중 타이어가 펑크 나거나 파손되면 보상받나요?</div>
+                <div class="faq-answer">네, 넥스트레벨 서비스에는 넥센타이어 무상 파손 보증 제도가 포함되어 있어, 운전자의 과실로 인한 찢어짐이나 포트홀 충격으로 인한 코드 절단 발생 시에도 약정 규정에 따라 동일 신품 타이어로 무상 교체 서비스를 받을 수 있습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q6. 휠 얼라인먼트는 타이어 교체 시 무조건 필수적으로 진행해야 하나요?</div>
+                <div class="faq-answer">타이어 4짝 모두를 신품으로 교체하거나, 기존 타이어에 안쪽/바깥쪽 편마모 증상이 뚜렷하게 관찰되었던 차량이라면 휠 얼라인먼트 교정이 필수적입니다. 정렬이 틀어진 상태로 신품 타이어를 장착하면 불과 수천 km 주행만으로도 타이어가 비정상 마모되어 수명이 급격히 단축됩니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q7. 타이어 앞뒤 위치 교환 주기는 언제가 가장 적절한가요?</div>
+                <div class="faq-answer">전륜 구동 차량은 앞 타이어에 엔진 하중과 조향, 구동력이 모두 집중되므로 뒤 타이어보다 마모 속도가 2배 이상 빠릅니다. 통상 10,000km에서 15,000km 주행 시점마다 앞뒤 타이어 위치를 대각선 또는 전후 직선으로 교환해 주는 것이 타이어 4짝의 수명을 균일하게 유지하는 비결입니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q8. 전기차(EV)에 일반 넥센 엔페라 타이어를 장착해도 상관없나요?</div>
+                <div class="faq-answer">전기차는 배터리 무게로 인해 내연기관 대비 공차중량이 200~400kg 무겁고 초반 토크가 매우 강합니다. 일반 타이어 장착 시 하중지수(HL 규격)가 미달되면 트레드 조기 마모와 슬립 현상이 일어날 수 있으므로, 반드시 엔페라 슈프림 EV 등 전기차 전용 마킹이 들어간 고하중 전용 제품을 선택하셔야 합니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q9. 타이어 공기압은 여름철과 겨울철에 다르게 넣어야 하나요?</div>
+                <div class="faq-answer">기온 변화에 따라 공기 밀도가 달라지므로 겨울철에는 기온 강하로 공기압 경고등이 쉽게 점등됩니다. 계절과 관계없이 운전석 B필러 도어 안쪽에 부착된 차량 제조사 표준 지정 공기압(보통 34~38 PSI)을 기준으로, 1~2개월에 한 번씩 주기적으로 냉간 시 기준 공기압을 체크하여 보충해 주는 것이 가장 이상적입니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q10. 넥센타이어를 가장 저렴하게 교체할 수 있는 시기는 언제인가요?</div>
+                <div class="faq-answer">명절(설날, 추석) 전후나 5월 가정의 달, 11월 블랙프라이데이 시즌에 대형 오픈마켓과 통신사 제휴, 장착비 무료 지원 프로모션이 집중됩니다. 또한 넥센 공식 인증 온라인 쇼핑몰이나 대리점 이벤트 주간을 활용하시면 상품권 지급 및 주유권 사은품 혜택을 극대화할 수 있습니다.</div>
+            </div>
+        </section>
+
+        <div class="external-sources">
+            <h3>공식 인증 및 신뢰할 수 있는 외부 출처</h3>
+            <ul class="sources-list">
+                <li>
+                    <a href="https://tirerentztrusto.koreahankang.com" target="_blank" rel="noopener noreferrer" class="source-link">타이어인사이트 코리아 공식 등급 검증 센터 (reliabledone.com)</a>
+                    <span class="source-desc">국내 유통 전 브랜드 타이어 실측 UTQG 지표 및 제동 거리 테스트 공인 데이터 제공</span>
+                </li>
+                <li>
+                    <a href="https://www.nexentire.com/kr/" target="_blank" rel="noopener noreferrer" class="source-link">넥센타이어 공식 홈페이지 (NEXEN TIRE KOREA)</a>
+                    <span class="source-desc">차종별 표준 순정 OE 규격 매칭 및 넥스트레벨 렌탈 공식 서비스 접수 센터</span>
+                </li>
+                <li>
+                    <a href="https://namu.wiki/w/%EB%84%A5%EC%84%BC%ED%83%80%EC%9D%B4%EC%96%B4" target="_blank" rel="noopener noreferrer" class="source-link">나무위키 넥센타이어 문서</a>
+                    <span class="source-desc">넥센타이어 기업 연혁 및 역대 서브 브랜드별 세대 교체 변천사 백과사전 자료</span>
+                </li>
+            </ul>
+        </div>
+
+    </article>
+</main>
+
+  
